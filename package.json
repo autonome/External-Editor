@@ -1,9 +1,9 @@
 {
-    "name": "bugzilla-editor", 
-    "license": "MPL 1.1/GPL 2.0/LGPL 2.1", 
-    "author": "", 
-    "version": "0.1", 
-    "fullName": "bugzilla-editor", 
-    "id": "jid0-4BhV7dKnWYV3dFOfVldzFe5Psx0", 
-    "description": "a basic add-on"
+    "name": "external-editor",
+    "license": "MPL 1.1/GPL 2.0/LGPL 2.1",
+    "author": "Dietrich Ayala",
+    "version": "1.0",
+    "fullName": "External Editor",
+    "id": "jid0-4BhV7dKnWYV3dFOfVldzFe5Psx0",
+    "description": "Edit text fields in your favorite editor."
 }

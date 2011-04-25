@@ -1,8 +1,10 @@
+var textareas = document.querySelectorAll('textarea');
+
 // add doubleclick listener to all textareas
-var textareas = document.querySelectorAll("textarea");
 for (var i = 0; i < textareas.length; i++) {
-  textareas[i].addEventListener("dblclick", function(e) {
-    loadEditor(e.target.id, e.target.value);
+  textareas[i].addEventListener('dblclick', function(e) {
+    if (e.metaKey)
+      loadEditor(e.target.id, e.target.value);
   }, false);
 }
 
